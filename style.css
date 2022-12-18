@@ -1,0 +1,90 @@
+/* body{
+    background-color: rgb(60, 24, 225);
+} */
+body{
+    background-image: url('../img/bg.jpg');
+    margin: 0;
+}
+#mypara{
+    color: brow 0.5px 0.5px black;
+    /* direction: initial; */
+     font-family: sans-serif ;
+     font-style: italic;
+     font-size: 1.4vw;
+     background-color: rgb(0, 255, 170); border: 5px solid green;border-radius: 12px; margin: 50px;padding-top: 75px;text-align: center; height: 80px; width: 25%;outline: 4px solid black;
+    word-spacing: 4px;
+    /* display: inline; */
+    display: inline-flex;
+    margin-inline: 15px;
+    margin-inline-start: 80px;
+    justify-content: center;
+    
+}
+/* .box{
+    position: static;
+    /* top: 190px; */
+    /* bottom: 0; */
+    right: 520px;
+}
+.box1{
+    position: static;
+    left: 0;
+}
+.box2{      
+    position: static;
+    /* top: 190px; */
+    /* bottom: 0; */
+    right: 0;
+} */
+ a{
+    /* color: white; */
+text-decoration: none ;
+text-transform: capitalize;
+list-style: 3px;
+/* margin-right: 0px,44px; */
+font-size: 1.5vw;
+
+}
+a:hover{
+color: white;
+background-color: black;
+/* font-size: 2em; */
+}
+
+.nav{
+background-color: rgb(153, 170, 58);
+}
+.items{
+/* background-color: brown; */
+list-style-type: none;
+/* padding: 15px; */
+padding-top: 5px;
+/* margin-top: 100px; */
+height: 30px;
+}
+.item{
+/* background-color: blueviolet; */
+/* margin: 0; */
+display: inline;
+}
+li{
+    margin: 10px;
+}
+.red{
+    background-color: chartreuse;
+}
+.myflex{
+    display: flex ;
+    flex-direction: row;
+    background: black;
+    border: 5px white ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.myflex > div{
+background: red;
+height: 80px;
+width: 80px;
+margin: 4px;
+text-align: center;
+}
